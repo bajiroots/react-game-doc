@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+// git branch -m master main
+// git fetch origin
+// git branch -u origin/main main
+// git remote set-head origin -a
+
 function Square(props) {
     return (
         <button className="square" onClick={props.onClick}>
